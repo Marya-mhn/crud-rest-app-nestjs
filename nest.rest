@@ -1,0 +1,27 @@
+// Post
+POST http://localhost:3000/
+Content-Type: application/json
+
+{
+  "userName":"MArya",
+  "description":"abc"
+}
+
+#####
+
+// GET all
+GET http://localhost:3000/
+
+#####
+PUT http://localhost:3000/64e2bcfe8fbf7317f733203c
+Content-Type: application/json
+
+{
+  "userName":"Maghy",
+  "description":"abc"
+}
+
+#####
+
+// GET all
+DELETE http://localhost:3000/64e2b724d598a052e7108b91
